@@ -15,13 +15,12 @@ body{
     justify-content: center;
     color: white;
     font-family: 'Poppins';
-    font-size: smaller;
 }
 
 .container{
     background: rgba(0,0,0,0.24);
-    width:70%;
-    height:max-content;
+    width:75%;
+    height:fit-content;
     display: flex !important;
     align-items: center;
     padding-left: 100px;
@@ -39,7 +38,7 @@ body{
 
 
 img{
-    width:20%;
+    width:25%;
     margin-top: 20px;
 }
 
@@ -102,11 +101,10 @@ textarea:focus{
     margin-top: 50px !important;
 }
 
-@media (min-width:576px){
-    .container{
-        width:100%;
-        min-width:576px;
-    }
+form h5{
+    font-size: small;
+}
 
-    
+form h1{
+    font-size: larger;
 }
