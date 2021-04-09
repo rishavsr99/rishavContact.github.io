@@ -102,7 +102,7 @@ textarea:focus{
     margin-top: 50px !important;
 }
 
-@media (min-width:576px){
+@media (max-width:576px){
     .container{
         width:100%;
         min-width:576px;
